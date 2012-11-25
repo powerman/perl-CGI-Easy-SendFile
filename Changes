@@ -1,5 +1,8 @@
 Revision history for CGI-Easy-SendFile
 
+1.0.1	Sun Nov 25 08:34:29 EET 2012
+	Update Module::Install.
+
 1.0.0	Thu Nov 25 09:39:55 EET 2010
 	Initial public release.
 

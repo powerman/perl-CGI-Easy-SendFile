@@ -332,6 +332,10 @@ severity                           = 4
 # maximum_violations_per_document    = no_limit
 
 
+[-Documentation::PodSpelling]
+spell_command = aspell list -l en
+
+
 # The `=head1 NAME' section should match the package.
 [Documentation::RequirePackageMatchesPodName]
 # set_themes                         = core cosmetic
@@ -533,17 +537,6 @@ severity                           = 4
 
 
 [-Miscellanea::ProhibitUnrestrictedNoCritic]
-
-
-# Put source-control keywords in every file.
-[-Miscellanea::RequireRcsKeywords]
-# set_themes                         = core cosmetic pbp
-# add_themes                         =
-# severity                           = 2
-# maximum_violations_per_document    = no_limit
-
-# The keywords to require in all files.
-# keywords = 
 
 
 # Export symbols via `@EXPORT_OK' or `%EXPORT_TAGS' instead of `@EXPORT'.
@@ -1086,6 +1079,9 @@ severity                           = 2
 # add_themes                         =
 # severity                           = 3
 # maximum_violations_per_document    = no_limit
+
+
+[-ValuesAndExpressions::RequireConstantVersion]
 
 
 # Warns that you might have used single quotes when you really wanted double-quotes.
