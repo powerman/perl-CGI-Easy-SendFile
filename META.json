@@ -61,7 +61,7 @@
    "provides" : {
       "CGI::Easy::SendFile" : {
          "file" : "lib/CGI/Easy/SendFile.pm",
-         "version" : "v1.0.1"
+         "version" : "v2.0.0"
       }
    },
    "release_status" : "stable",
@@ -76,6 +76,6 @@
          "web" : "https://github.com/powerman/perl-CGI-Easy-SendFile"
       }
    },
-   "version" : "v1.0.1"
+   "version" : "v2.0.0"
 }
 

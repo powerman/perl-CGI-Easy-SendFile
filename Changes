@@ -1,6 +1,8 @@
 Revision history for CGI-Easy-SendFile
 
 {{$NEXT}}
+
+v2.0.0  2016-02-15 23:51:54 EET
 	- Switch from Perl6::Export::Attrs to Export::Attrs.
 	- Switch to Dist::Milla.
 

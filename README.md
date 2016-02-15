@@ -7,7 +7,7 @@ CGI::Easy::SendFile - send files from CGI to browser
 
 # VERSION
 
-This document describes CGI::Easy::SendFile version v1.0.1
+This document describes CGI::Easy::SendFile version v2.0.0
 
 # SYNOPSIS
 
