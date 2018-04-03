@@ -5,7 +5,7 @@ use strict;
 use utf8;
 use Carp;
 
-our $VERSION = 'v2.0.0';
+our $VERSION = 'v2.0.1';
 
 use Export::Attrs;
 use List::Util qw( min );
@@ -110,7 +110,7 @@ CGI::Easy::SendFile - send files from CGI to browser
 
 =head1 VERSION
 
-This document describes CGI::Easy::SendFile version v2.0.0
+This document describes CGI::Easy::SendFile version v2.0.1
 
 
 =head1 SYNOPSIS
